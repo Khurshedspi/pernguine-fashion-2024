@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,53 +8,190 @@
     <!-- ====================================
                tailwind link and daisy ui 
      ================================= -->
-     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
-     <script src="https://cdn.tailwindcss.com"></script>
-     <!-- ==========================
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- ==========================
                    css link
                    ==================== -->
-                   <link rel="stylesheet" href="styles/style.css">
-                   <!-- ==============================\=============
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- ==============================\=============
                     ===================font awesome============= -->
-                    <script src="https://kit.fontawesome.com/87adba0cdb.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/87adba0cdb.js" crossorigin="anonymous"></script>
 </head>
+
 <body class="w-screen bg-[#FFFFFF]">
     <header>
-<nav class="max-w-screen-xl bg-green-800 mx-auto mb-5">
+        <nav class="max-w-screen-xl bg-green-800 mx-auto mb-5">
 
-    <div class="navbar bg-[#FFFBF0] max-sm:flex-col md:flex-row">
-        <div class="flex-1">
-         <image class="peng-icon" src="./images/penguine-icon.png"><a class="text-[#363958] text-2xl font-bold"><span class="text-[#A4BC46]">Penguin</span> Fashion</a></image>
-        </div>
-        <div class="flex-none">
-          <ul class="menu menu-horizontal px-1 nav-bar">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Product</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact Us</a></li>
-          </ul>
-        </div>
-      </div>
-</nav>
+            <div class="navbar bg-[#FFFBF0] max-sm:flex-col md:flex-row">
+                <div class="flex-1">
+                    <image class="peng-icon" src="./images/penguine-icon.png"><a
+                            class="text-[#363958] text-2xl font-bold"><span class="text-[#A4BC46]">Penguin</span>
+                            Fashion</a></image>
+                </div>
+                <div class="flex-none">
+                    <ul class="menu menu-horizontal px-1 nav-bar">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Product</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
-<section class="banner max-w-screen-xl sm:mx-auto md:mx-auto  lg:mx-auto ">
-<div class="main-container  sm:flex-col items-center md:flex-col  lg:flex-row flex gap-10 ">
-    <div class="text-container sm:w-full pl-10  w-1/2 h-1/2 ">
-        <h1 class="uppercase text-[#363958] text-7xl font-medium w-3/4 mb-5 mt-16 sm:w-full md:w-10/12"><span class="text-[#FABE4C]">Be the Penguins</span> of Winter</h1>
-        <p class="text-base font-normal text-[#3E3E3E] w-3/4 mb-5 sm:w-full md:w-10/12">Winter fashion combines warmth and style with cozy layers, chic coats, and accessories like scarves, hats, and boots to stay fashionable and comfortable in cold weather.</p>
-        <button class="btn bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-lg text-[#FFFFFF] uppercase"><i class="fa-solid fa-cart-shopping"></i> Buy Now</button>
-    </div>
-    <div class="img-container sm:w-full  pl-10  w-1/2 h-1/2">
-        <img src="./images/model.png" alt="">
-    </div>
-</div>
-</section>
+        <section class="banner max-w-screen-xl sm:mx-auto md:mx-auto  lg:mx-auto ">
+            <div class="main-container  sm:flex-col items-center md:flex-col  lg:flex-row flex gap-10 ">
+                <div class="text-container sm:w-full pl-10  w-1/2 h-1/2 ">
+                    <h1 class="uppercase text-[#363958] text-7xl font-medium w-3/4 mb-5 mt-16 sm:w-full md:w-10/12">
+                        <span class="text-[#FABE4C]">Be the Penguins</span> of Winter</h1>
+                    <p class="text-base font-normal text-[#3E3E3E] w-3/4 mb-5 sm:w-full md:w-10/12">Winter fashion
+                        combines warmth and style with cozy layers, chic coats, and accessories like scarves, hats, and
+                        boots to stay fashionable and comfortable in cold weather.</p>
+                    <button class="btn bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-lg text-[#FFFFFF] uppercase"><i
+                            class="fa-solid fa-cart-shopping"></i> Buy Now</button>
+                </div>
+                <div class="img-container sm:w-full  pl-10  w-1/2 h-1/2">
+                    <img src="./images/model.png" alt="">
+                </div>
+            </div>
+        </section>
     </header>
     <main>
-
+        <section class="woman-jacket max-w-screen-xl mt-20 sm:mx-auto md:mx-auto  lg:mx-auto ">
+            <h1 class="text-[#363958] text-5xl uppercase bebas-neue-fonts mt-40 mb-16 ml-10 max-sm:text-center lg:text-start">Woman Jacket</h1>
+            <div class="cards-container w-10/12 grid grid-cols-3 gap-12  mx-auto max-sm:grid-cols-1 justify-items-center max-md:grid-cols-2 justify-between  max-lg:grid-cols-2 gap-5">
+                <!-- card-1  -->
+                <div class="card w-72">
+                    <div class="p-8 bg-[#F1F1F1] rounded-2xl">
+                        <figure class="w-full h-auto border-dashed border-2 border-indigo-200">
+                            <img class="p-10" src="./images/jacket-1.png" alt="jacket-1" />
+                        </figure>
+                    </div>
+                    <div class="card-body">
+                        <h2 class="card-title roboto-fonts text-[#363958]">Yellow Coat Jacket </h2>
+                        <p class="text-[#3E3E3E] text-base font-normal">A yellow winter jacket for women offers,keeping you warm and winter days.</p>
+                        <div class="flex items-center justify-between max-sm:flex-col max-md:flex-row max-lg:flex-row">
+                            <div>
+                                <p class="roboto-fonts text-3xl text-[#FABE4C] font-extrabold"><span>$</span>234</p>
+                            </div>
+                            <div>
+                                <button class="btn bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-lg text-[#FFFFFF] uppercase">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card-2  -->
+                <div class="card w-72">
+                    <div class="p-8 bg-[#F1F1F1] rounded-2xl">
+                        <figure class="w-full h-auto border-dashed border-2 border-indigo-200">
+                            <img class="p-10" src="./images/jacket-2.png" alt="jacket-2" />
+                        </figure>
+                    </div>
+                    <div class="card-body">
+                        <h2 class="card-title roboto-fonts text-[#363958]">Ladies Jacket  </h2>
+                        <p class="text-[#3E3E3E] text-base font-normal">A yellow winter jacket for women offers,keeping you warm and winter days.</p>
+                        <div class="flex items-center justify-between max-sm:flex-col max-md:flex-row max-lg:flex-row">
+                            <div>
+                                <p class="roboto-fonts text-3xl text-[#FABE4C] font-extrabold"><span>$</span>234</p>
+                            </div>
+                            <div>
+                                <button class="btn bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-lg text-[#FFFFFF] uppercase">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card-3 -->
+                <div class="card w-72">
+                    <div class="p-8 bg-[#F1F1F1] rounded-2xl">
+                        <figure class="w-full h-auto border-dashed border-2 border-indigo-200">
+                            <img class="p-10" src="./images/jacket-3.png" alt="jacket-3" />
+                        </figure>
+                    </div>
+                    <div class="card-body">
+                        <h2 class="card-title roboto-fonts text-[#363958]">Woman Leather Jacket  </h2>
+                        <p class="text-[#3E3E3E] text-base font-normal">A yellow winter jacket for women offers,keeping you warm and winter days.</p>
+                        <div class="flex items-center justify-between max-sm:flex-col max-md:flex-row max-lg:flex-row">
+                            <div>
+                                <p class="roboto-fonts text-3xl text-[#FABE4C] font-extrabold"><span>$</span>234</p>
+                            </div>
+                            <div>
+                                <button class="btn bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-lg text-[#FFFFFF] uppercase">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="woman-jacket max-w-screen-xl mt-20 sm:mx-auto md:mx-auto  lg:mx-auto ">
+            <h1 class="text-[#363958] text-5xl uppercase bebas-neue-fonts mt-40 mb-16 ml-10 max-sm:text-center lg:text-start">Man Jacket</h1>
+            <div class="cards-container w-10/12 grid grid-cols-3 gap-12  mx-auto max-sm:grid-cols-1 justify-items-center max-md:grid-cols-2 justify-between  max-lg:grid-cols-2 gap-5">
+                <!-- card-1  -->
+                <div class="card w-72">
+                    <div class="p-8 bg-[#F1F1F1] rounded-2xl">
+                        <figure class="w-full h-auto border-dashed border-2 border-indigo-200">
+                            <img class="p-10" src="./images/jacket-4.png" alt="jacket-4" />
+                        </figure>
+                    </div>
+                    <div class="card-body">
+                        <h2 class="card-title roboto-fonts text-[#363958]">Snowboard Jacket Mens </h2>
+                        <p class="text-[#3E3E3E] text-base font-normal">A yellow winter jacket for women offers,keeping you warm and winter days.</p>
+                        <div class="flex items-center justify-between max-sm:flex-col max-md:flex-row max-lg:flex-row">
+                            <div>
+                                <p class="roboto-fonts text-3xl text-[#FABE4C] font-extrabold"><span>$</span>234</p>
+                            </div>
+                            <div>
+                                <button class="btn bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-lg text-[#FFFFFF] uppercase">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card-2  -->
+                <div class="card w-72">
+                    <div class="p-8 bg-[#F1F1F1] rounded-2xl">
+                        <figure class="w-full h-auto border-dashed border-2 border-indigo-200">
+                            <img class="p-10" src="./images/jacket-5.png" alt="jacket-5" />
+                        </figure>
+                    </div>
+                    <div class="card-body">
+                        <h2 class="card-title roboto-fonts text-[#363958]">Man Leather Jackets</h2>
+                        <p class="text-[#3E3E3E] text-base font-normal">A yellow winter jacket for women offers,keeping you warm and winter days.</p>
+                        <div class="flex items-center justify-between max-sm:flex-col max-md:flex-row max-lg:flex-row">
+                            <div>
+                                <p class="roboto-fonts text-3xl text-[#FABE4C] font-extrabold"><span>$</span>234</p>
+                            </div>
+                            <div>
+                                <button class="btn bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-lg text-[#FFFFFF] uppercase">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card-3 -->
+                <div class="card w-72">
+                    <div class="p-8 bg-[#F1F1F1] rounded-2xl">
+                        <figure class="w-full h-auto border-dashed border-2 border-indigo-200">
+                            <img class="p-10" src="./images/jacket-6.png" alt="jacket-6" />
+                        </figure>
+                    </div>
+                    <div class="card-body">
+                        <h2 class="card-title roboto-fonts text-[#363958]">Man Casual Jackets </h2>
+                        <p class="text-[#3E3E3E] text-base font-normal">A yellow winter jacket for women offers,keeping you warm and winter days.</p>
+                        <div class="flex items-center justify-between max-sm:flex-col max-md:flex-row max-lg:flex-row">
+                            <div>
+                                <p class="roboto-fonts text-3xl text-[#FABE4C] font-extrabold"><span>$</span>234</p>
+                            </div>
+                            <div>
+                                <button class="btn bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-lg text-[#FFFFFF] uppercase">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
 
     </footer>
 </body>
+
 </html>
