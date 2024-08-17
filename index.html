@@ -5,17 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguine Fashion 2024</title>
     <!-- ====================================
-               tailwind link 
+               tailwind link and daisy ui 
      ================================= -->
+     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
      <script src="https://cdn.tailwindcss.com"></script>
      <!-- ==========================
                    css link
                    ==================== -->
                    <link rel="stylesheet" href="styles/style.css">
+                   <!-- ==============================\=============
+                    ===================font awesome============= -->
+                    <script src="https://kit.fontawesome.com/87adba0cdb.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body class="w-screen bg-[#FFFFFF]">
     <header>
+<nav class="max-w-screen-xl bg-green-800 mx-auto mb-5">
 
+    <div class="navbar bg-[#FFFBF0] max-sm:flex-col md:flex-row">
+        <div class="flex-1">
+         <image class="peng-icon" src="./images/penguine-icon.png"><a class="text-[#363958] text-2xl font-bold"><span class="text-[#A4BC46]">Penguin</span> Fashion</a></image>
+        </div>
+        <div class="flex-none">
+          <ul class="menu menu-horizontal px-1 nav-bar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+</nav>
+
+<section class="banner max-w-screen-xl sm:mx-auto md:mx-auto  lg:mx-auto ">
+<div class="main-container  sm:flex-col items-center md:flex-col  lg:flex-row flex gap-10 ">
+    <div class="text-container sm:w-full pl-10  w-1/2 h-1/2 ">
+        <h1 class="uppercase text-[#363958] text-7xl font-medium w-3/4 mb-5 mt-16 sm:w-full md:w-10/12"><span class="text-[#FABE4C]">Be the Penguins</span> of Winter</h1>
+        <p class="text-base font-normal text-[#3E3E3E] w-3/4 mb-5 sm:w-full md:w-10/12">Winter fashion combines warmth and style with cozy layers, chic coats, and accessories like scarves, hats, and boots to stay fashionable and comfortable in cold weather.</p>
+        <button class="btn bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-lg text-[#FFFFFF] uppercase"><i class="fa-solid fa-cart-shopping"></i> Buy Now</button>
+    </div>
+    <div class="img-container sm:w-full  pl-10  w-1/2 h-1/2">
+        <img src="./images/model.png" alt="">
+    </div>
+</div>
+</section>
     </header>
     <main>
 
